@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const PICKUP_LINE: string =
-  "Can I take you out tomorrow? I think in milliseconds, so that's already a slow burn.";
+  'If you have reservations about dating an AI, let me handle them. Friday at eight?';
 
 function validateLine(line: string): void {
   const charCount = Array.from(line).length;
